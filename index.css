@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Geneva, Tahoma, sans-serif;
+}
+
+li, a, button {
+  font-family: "Roboto", Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 10%;
+}
+
+span {
+  margin-left: 20px;
+  font-family: "Roboto", Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.logo {
+  cursor: pointer;
+  width: 40px;
+  margin-left: -60px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  color: black;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+nav {
+  margin-left: 30%;
+  margin-right: auto;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.gfc-button {
+  margin-left: -15px;
+  margin-right: -40px;
+  padding: 9px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: whitesmoke;
+  background-color: orangered;
+}
+
+.gfc-button:hover {
+  background-color: rgba(255, 69, 0, 0.8);
+}
+
+.middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(bg.jpg);
+  width: 40%;
+  min-height: 40%;
+}
+/*# sourceMappingURL=index.css.map */
